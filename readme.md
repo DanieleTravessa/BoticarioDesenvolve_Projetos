@@ -51,10 +51,10 @@ Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta
 1. [DER](#introduction)  
 
 # Table of contents  
-1. [Etapas do Projeto](#etapas_do_projeto)  
-2. [Entidades Utilizadas](#paragraph1)  
+1. [Etapas do Projeto](#etapas-do-projeto)  
+2. [Entidades Utilizadas](#entidades-utilizadas)  
     1. [Sub paragraph](#subparagraph1)  
-3. [Ferramentas](#ferramentas) 
+3. [Ferramentas Utilizadas](#ferramentas-utilizadas) 
 
 
 
