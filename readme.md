@@ -16,45 +16,45 @@ Projeto do banco de dados físico com considerações de desempenho, como índic
 Documentação detalhada da modelagem lógica e física do banco de dados, incluindo descrição de entidades, relacionamentos, atributos e considerações de desempenho.
 
 ## 📑 Entidades Utilizadas:
-Cliente
-Produto
-Venda
-Pedido
-Item do Pedido
-Forma de Pagamento
-Programa de Benefícios
-Categoria de Produto
-Vendedor
-Armazém
-Campanha Promocional
-Avaliação do Produto
+✴ Cliente
+✴ Produto
+✴ Venda
+✴ Pedido
+✴ Item do Pedido
+✴ Forma de Pagamento
+✴ Programa de Benefícios
+✴ Categoria de Produto
+✴ Vendedor
+✴ Armazém
+✴ Campanha Promocional
+✴ Avaliação do Produto
 
 ## 📄Ferramentas Utilizadas:
-Diagrama ER: Draw.io.
-SGBD: PostgreSQL.
-Documentação: Markdown.
+✴ Diagrama ER: Draw.io.
+✴ SGBD: PostgreSQL.
+✴ Documentação: Markdown.
 
 ## 📄Como Contribuir:
 Fique à vontade para sugerir melhorias no modelo de banco de dados ou na documentação.
 Caso encontre algum problema ou tenha dúvidas, abra uma issue para discussão.
 Contribuições são bem-vindas via pull requests.
 
-Referências:
-Documentação do PostgreSQL.
-Livros e recursos online sobre modelagem de banco de dados e SQL.
-Orientações das aulas de Modelagem da Alura.
+## 📰 Referências:
+✴ Documentação do PostgreSQL.
+✴ Livros e recursos online sobre modelagem de banco de dados e SQL.
+✴ Orientações das aulas de Modelagem da Alura.
 
-Este projeto busca promover o aprendizado e a prática de modelagem de banco de dados em um contexto realista do negócio do Boticário. Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para participar!
-::rocket:: 
+Este projeto busca promover o aprendizado e a prática de modelagem de banco de dados em um contexto realista do negócio do Boticário. 
+Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para contribuir! 🚀
 
 ## 🏗️Modelagem Lógica 
 1. [DER](#introduction)  
 
 # Table of contents  
-1. [Introduction](#introduction)  
-2. [Some paragraph](#paragraph1)  
+1. [Etapas do Projeto](#etapas_do_projeto)  
+2. [Entidades Utilizadas](#paragraph1)  
     1. [Sub paragraph](#subparagraph1)  
-3. [Another paragraph](#paragraph2) 
+3. [Ferramentas](#ferramentas) 
 
 
 
