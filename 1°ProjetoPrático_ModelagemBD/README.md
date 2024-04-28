@@ -48,7 +48,7 @@ Este projeto busca promover o aprendizado e a prática de modelagem de banco de 
 Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para contribuir! 🚀
 
 ## 🏗️Modelagem Lógica 
-1. [DER](#introduction)  
+1. ![DER](#1°ProjetoPrático_ModelagemBD/Boticario.drawio.svg)  
 
 # Table of contents  
 1. [Etapas do Projeto](#etapas-do-projeto)  
