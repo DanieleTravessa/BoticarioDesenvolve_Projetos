@@ -15,6 +15,8 @@ Projeto do banco de dados físico com considerações de desempenho, como índic
 ### 🎲Documentação:
 Documentação detalhada da modelagem lógica e física do banco de dados, incluindo descrição de entidades, relacionamentos, atributos e considerações de desempenho.
 
+# 📋 Análise de Requisitos
+
 ## 📑 Entidades Utilizadas:
 ✴ Cliente  
 ✴ Produto  
@@ -44,7 +46,6 @@ Documentação detalhada da modelagem lógica e física do banco de dados, inclu
 ✴ Um cliente pode fazer uma ou várias avaliações de produtos (relacionamento 1:N entre Cliente e Avaliação do Produto). 
 
 ## 📋 Atributos:
-
 ✴ Cliente: ID, Nome, Endereço, E-mail, Telefone  
 ✴ Produto: ID, Nome, Descrição, Preço, Quantidade em Estoque, CategoriaID, EstoqueID  
 ✴ Categoria de Produto: ID, Nome, Descrição  
@@ -59,45 +60,39 @@ Documentação detalhada da modelagem lógica e física do banco de dados, inclu
 ✴ Campanha Promocional: ID, Nome, Descrição, Data de Início, Data de Término  
 ✴ Avaliação do Produto: ID, Cliente_ID, Produto_ID, Pontuação, Comentário, Data  
 
+## 💡 Modelagem Lógica 
+💾 [MER](Boticario.drawio.svg)
+
+## 🏗️Modelagem Física
+### 📜[Script](ScriptCriacaoTabelasBD.sql)
+### 💾![DER](ModelagemFisica.pgerd.png)   
+
 ## 📄Ferramentas Utilizadas:
 ✴ Diagrama ER: Draw.io.  
 ✴ SGBD: PostgreSQL.  
 ✴ Documentação: Markdown.  
-
-## 📄Como Contribuir:
-Fique à vontade para sugerir melhorias no modelo de banco de dados ou na documentação.  
-Caso encontre algum problema ou tenha dúvidas, abra uma issue para discussão.  
-Contribuições são bem-vindas via pull requests.  
 
 ## 📰 Referências:
 ✴ Documentação do PostgreSQL.  
 ✴ Livros e recursos online sobre modelagem de banco de dados e SQL.  
 ✴ Orientações das aulas de Modelagem da Alura.  
 
+## 📄Como Contribuir:
+Fique à vontade para sugerir melhorias no modelo de banco de dados ou na documentação.  
+Caso encontre algum problema ou tenha dúvidas, abra uma issue para discussão.  
+Contribuições são bem-vindas via pull requests.  
+
 Este projeto busca promover o aprendizado e a prática de modelagem de banco de dados em um contexto realista do negócio do Boticário. 
 Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para contribuir! 🚀
 
-## 💡 Modelagem Lógica 
-1. [MER](Boticario.drawio.svg)
-
-## 🏗️Modelagem Física
-### 📜Script
-'''
-(ScriptCriacaoTabelasBD.sql)
-'''
-### 💾[DER](ModelagemFisica.pgerd)   
-
 # Table of contents  
-1. [Etapas do Projeto](#etapas-do-projeto)  
-2. [Entidades Utilizadas](#entidades-utilizadas)  
-    1. [Sub paragraph](#subparagraph1)  
-3. [Ferramentas Utilizadas](#ferramentas-utilizadas) 
-
-```bash
-  npm run deploy
-```  
-
-## Acknowledgements  
-- [Readme.so](https://github.com/octokatherine/readme.so)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)  
+1. [Análise de Requisitos](#analise-de-requisitos)
+    1. [Etapas do Projeto](#etapas-do-projeto)
+    2. [Entidades Utilizadas](#entidades-utilizadas)
+    3. [Relacionamento](#relacionamentos)
+    4. [Atributos](#atributos)  
+2. [Modelagem Lógica)(#modelagem-logica)
+3. [Modelagem Física](#modelagem-fisica)
+4. [Ferramentas Utilizadas](#ferramentas-utilizadas)
+5. [Referências](#referencias)
+6. [Documentação](#modelagem-de-banco-de-dados)
