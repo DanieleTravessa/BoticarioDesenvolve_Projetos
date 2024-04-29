@@ -41,7 +41,23 @@ Documentação detalhada da modelagem lógica e física do banco de dados, inclu
 ✴ Um vendedor recebe uma comissão pela venda (relacionamento 1:1).  
 ✴ Um produto pode estar armazenado em vários locais de armazenamento (relacionamento N:M entre Produto e Armazém).  
 ✴ Uma campanha promocional pode envolver vários produtos (relacionamento N:M entre Campanha Promocional e Produto).  
-✴ Um cliente pode fazer uma ou várias avaliações de produtos (relacionamento 1:N entre Cliente e Avaliação do Produto).  
+✴ Um cliente pode fazer uma ou várias avaliações de produtos (relacionamento 1:N entre Cliente e Avaliação do Produto). 
+
+## 📋 Atributos:
+
+✴ Cliente: ID, Nome, Endereço, E-mail, Telefone  
+✴ Produto: ID, Nome, Descrição, Preço, Quantidade em Estoque, CategoriaID, EstoqueID  
+✴ Categoria de Produto: ID, Nome, Descrição  
+✴ Armazém: ID, Nome, Endereço  
+✴ Pedido: ID, ClienteID, ItemID, Data, Valor Total, Desconto    
+✴ Item do Pedido: ID, ProdutoID, Quantidade, Subtotal  
+✴ Venda: ID, PedidoID, VendedorID, Data, Valor Total, Desconto, PontosID, FormaPagID, ComissaoID  
+✴ Forma de Pagamento: ID, Tipo, Descrição  
+✴ Vendedor: ID, Nome, CPF, Telefone, Email  
+✴ Comissão: ID, Valor, Descrição, VendedorID  
+✴ Programa de Benefícios: ID, ClienteID, Quantidade, Data  
+✴ Campanha Promocional: ID, Nome, Descrição, Data de Início, Data de Término  
+✴ Avaliação do Produto: ID, Cliente_ID, Produto_ID, Pontuação, Comentário, Data  
 
 ## 📄Ferramentas Utilizadas:
 ✴ Diagrama ER: Draw.io.  
