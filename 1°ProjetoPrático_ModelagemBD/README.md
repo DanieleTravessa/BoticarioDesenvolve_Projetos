@@ -61,14 +61,14 @@ Contribuições são bem-vindas via pull requests.
 Este projeto busca promover o aprendizado e a prática de modelagem de banco de dados em um contexto realista do negócio do Boticário. 
 Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para contribuir! 🚀
 
-## 🏗️Modelagem Lógica 
+## 💡 Modelagem Lógica 
 1. ![DER](1°ProjetoPrático_ModelagemBD/Boticario.drawio.svg)
 
 ## 🏗️Modelagem Física
 ### 📜Script
 '''
 '''
-### [MER]   
+### 💾[MER]   
 
 # Table of contents  
 1. [Etapas do Projeto](#etapas-do-projeto)  
