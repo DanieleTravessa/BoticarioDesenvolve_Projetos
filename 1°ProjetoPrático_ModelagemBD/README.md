@@ -29,6 +29,20 @@ Documentação detalhada da modelagem lógica e física do banco de dados, inclu
 ✴ Campanha Promocional
 ✴ Avaliação do Produto
 
+## 🔀 Relacionamentos:
+✴ Um cliente pode fazer várias compras/pedidos (relacionamento 1:N entre Cliente e Pedido).
+✴ Um pedido pode conter vários itens (relacionamento 1:N entre Pedido e Item do Pedido).
+✴ Um pedido gera uma venda (relacionamento 1:1 entre Pedido e Venda)
+✴ Uma venda está associada a uma forma de pagamento (relacionamento N:1 entre Venda e Forma de Pagamento).
+✴ Uma venda gera pontos para o cliente (relacionamento 1:N entre Venda e Programa de Benefícios).
+✴ Um cliente pode ganhar um ou mais pontos (relacionamento N:1 entre Programa de Benefícios e Cliente).
+✴ Um produto pode pertencer a uma ou várias categorias (relacionamento N:M entre Produto e Categoria de Produto).
+✴ Uma venda é realizada por um funcionário (relacionamento N:1 entre Vendendor e Venda).
+✴ Um vendedor recebe uma comissão pela venda (relacionamento 1:1)
+✴ Um produto pode estar armazenado em vários locais de armazenamento (relacionamento N:M entre Produto e Armazém).
+✴ Uma campanha promocional pode envolver vários produtos (relacionamento N:M entre Campanha Promocional e Produto).
+✴ Um cliente pode fazer uma ou várias avaliações de produtos (relacionamento 1:N entre Cliente e Avaliação do Produto).
+
 ## 📄Ferramentas Utilizadas:
 ✴ Diagrama ER: Draw.io.
 ✴ SGBD: PostgreSQL.
@@ -48,7 +62,13 @@ Este projeto busca promover o aprendizado e a prática de modelagem de banco de 
 Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para contribuir! 🚀
 
 ## 🏗️Modelagem Lógica 
-1. ![DER](1°ProjetoPrático_ModelagemBD/Boticario.drawio.svg)  
+1. ![DER](1°ProjetoPrático_ModelagemBD/Boticario.drawio.svg)
+
+## 🏗️Modelagem Física
+### 📜Script
+'''
+'''
+### [MER]   
 
 # Table of contents  
 1. [Etapas do Projeto](#etapas-do-projeto)  
