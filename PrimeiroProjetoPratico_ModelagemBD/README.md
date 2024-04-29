@@ -1,6 +1,14 @@
-### 1°Projeto Prático - Dados
-## Modelagem de Banco de Dados 
-![Logo](https://embalagemmarca.com.br/wp-content/uploads/2021/04/Grupo-Botic%C3%A1rio-logo.png)  
+<a id="documentacao"></a>
+<h1 align="center">
+    1°Projeto Prático - Dados<br>
+    Modelagem de Banco de Dados
+</h1>
+
+ 
+<p align="center"> 
+    <img src="logoGBoti.png" alt="Logo Grupo Boticário"> 
+</center>
+
 🤖 Este projeto visa criar um modelo de banco de dados relacional que representa aspectos importantes do negócio do Boticário, com foco nas áreas de vendas, sistema de pontuação e gestão de produtos em estoque. O objetivo é identificar entidades, relacionamentos e atributos relevantes, além de desenvolver a modelagem lógica e física do banco de dados.
 
 ## 🚀Etapas do Projeto:
@@ -87,7 +95,7 @@ Contribuições são bem-vindas via pull requests.
 Este projeto busca promover o aprendizado e a prática de modelagem de banco de dados em um contexto realista do negócio do Boticário. 
 Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para contribuir! 🚀
 
-# Table of contents  
+# Conteúdo da Documentação  
 1. [Análise de Requisitos](#análise-de-requisitos)
     1. [Etapas do Projeto](#etapas-do-projeto)
     2. [Entidades Utilizadas](#entidades-utilizadas)
@@ -97,4 +105,4 @@ Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta
 3. [Modelagem Física](#modelagem-física)
 4. [Ferramentas Utilizadas](#ferramentas-utilizadas)
 5. [Referências](#referências)
-6. [Documentação](#modelagem-de-banco-de-dados)
+6. [Documentação](#documentacao)
