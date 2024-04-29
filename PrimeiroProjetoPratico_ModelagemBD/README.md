@@ -17,7 +17,7 @@ Documentação detalhada da modelagem lógica e física do banco de dados, inclu
 
 # 📋 Análise de Requisitos
 
-## 📑 Entidades Utilizadas:
+## 📑Entidades Utilizadas:
 ✴ Cliente  
 ✴ Produto  
 ✴ Venda  
@@ -31,7 +31,7 @@ Documentação detalhada da modelagem lógica e física do banco de dados, inclu
 ✴ Campanha Promocional  
 ✴ Avaliação do Produto  
 
-## 🔀 Relacionamentos:
+## 🔀Relacionamentos:
 ✴ Um cliente pode fazer várias compras/pedidos (relacionamento 1:N entre Cliente e Pedido).  
 ✴ Um pedido pode conter vários itens (relacionamento 1:N entre Pedido e Item do Pedido).  
 ✴ Um pedido gera uma venda (relacionamento 1:1 entre Pedido e Venda).   
@@ -45,7 +45,7 @@ Documentação detalhada da modelagem lógica e física do banco de dados, inclu
 ✴ Uma campanha promocional pode envolver vários produtos (relacionamento N:M entre Campanha Promocional e Produto).  
 ✴ Um cliente pode fazer uma ou várias avaliações de produtos (relacionamento 1:N entre Cliente e Avaliação do Produto). 
 
-## 📋 Atributos:
+## 📋Atributos:
 ✴ Cliente: ID, Nome, Endereço, E-mail, Telefone  
 ✴ Produto: ID, Nome, Descrição, Preço, Quantidade em Estoque, CategoriaID, EstoqueID  
 ✴ Categoria de Produto: ID, Nome, Descrição  
@@ -60,19 +60,21 @@ Documentação detalhada da modelagem lógica e física do banco de dados, inclu
 ✴ Campanha Promocional: ID, Nome, Descrição, Data de Início, Data de Término  
 ✴ Avaliação do Produto: ID, Cliente_ID, Produto_ID, Pontuação, Comentário, Data  
 
-## 💡 Modelagem Lógica 
-💾 [MER](Boticario.drawio.svg)
+## 💡Modelagem Lógica 
+💾 MER
+![MER](Boticario.drawio.svg)
 
 ## 🏗️Modelagem Física
 ### 📜[Script](ScriptCriacaoTabelasBD.sql)
-### 💾![DER](ModelagemFisica.pgerd.png)   
+### 💾DER
+![DER](ModelagemFisica.pgerd.png)   
 
 ## 📄Ferramentas Utilizadas:
 ✴ Diagrama ER: Draw.io.  
 ✴ SGBD: PostgreSQL.  
 ✴ Documentação: Markdown.  
 
-## 📰 Referências:
+## 📰Referências:
 ✴ Documentação do PostgreSQL.  
 ✴ Livros e recursos online sobre modelagem de banco de dados e SQL.  
 ✴ Orientações das aulas de Modelagem da Alura.  
@@ -86,13 +88,13 @@ Este projeto busca promover o aprendizado e a prática de modelagem de banco de 
 Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para contribuir! 🚀
 
 # Table of contents  
-1. [Análise de Requisitos](#analise-de-requisitos)
+1. [Análise de Requisitos](#análise-de-requisitos)
     1. [Etapas do Projeto](#etapas-do-projeto)
     2. [Entidades Utilizadas](#entidades-utilizadas)
     3. [Relacionamento](#relacionamentos)
     4. [Atributos](#atributos)  
-2. [Modelagem Lógica)(#modelagem-logica)
-3. [Modelagem Física](#modelagem-fisica)
+2. [Modelagem Lógica](#modelagem-lógica)
+3. [Modelagem Física](#modelagem-física)
 4. [Ferramentas Utilizadas](#ferramentas-utilizadas)
-5. [Referências](#referencias)
+5. [Referências](#referências)
 6. [Documentação](#modelagem-de-banco-de-dados)
