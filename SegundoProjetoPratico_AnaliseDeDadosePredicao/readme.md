@@ -6,7 +6,7 @@
 
  
 <p align="center"> 
-    <img src="logoGBoti.png" alt="Logo Grupo Boticário"> 
+    <img src="PrimeiroProjetoPratico_ModelagemBD/logoGBoti.png" alt="Logo Grupo Boticário"> 
 </center>
 
 🤖 Este projeto no modelo de desafio visa realizar uma análise completa usando Python e a biblioteca Pandas numa base de dados de preços de aluguéis em São Paulo. Utilizar a regressão linear para modelar uma relação entre variáveis do conjunto de dados. 
