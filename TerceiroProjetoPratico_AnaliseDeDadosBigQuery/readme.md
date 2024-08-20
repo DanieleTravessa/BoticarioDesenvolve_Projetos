@@ -70,6 +70,6 @@ Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta
 # Table of contents  
 1. [Etapas do Projeto](#etapas-do-projeto)  
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)  
-3. [Códigos Desenvolvidos](#codigos-desenvolvidos)  
-4. [Visualizações](#visualizacoes)
-5. [Conclusão](#conclusao)
+3. [Códigos Desenvolvidos](#códigos-desenvolvidos)  
+4. [Visualizações](#visualizações)
+5. [Conclusão](#conclusão)
