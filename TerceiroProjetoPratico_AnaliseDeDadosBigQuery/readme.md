@@ -35,7 +35,7 @@ Os resultados foram validados para garantir a precisão das análises. Esta etap
 
 
 ## 📑Códigos Desenvolvidos:
-[Queries do Big Query](#Queries.md) 
+[Queries do Big Query](#queries.md) 
 
 ## Visualizações:
 As análises foram documentadas no dashboard do Looker
