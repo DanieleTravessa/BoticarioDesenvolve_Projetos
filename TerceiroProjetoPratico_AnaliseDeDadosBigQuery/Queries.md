@@ -1,18 +1,11 @@
-# Criação da Lista de geolocalização
+[Criação da Lista de geolocalização](#criação-da-lista-de-geolocalização)
+[Criação da tabela crimes com os campos Código e Bairros](#criação-da-tabela-crimes-com-os-campos-código-e-bairros)
+[Atualização da tabela crimes com os dados de geolocalização](#atualização-da-tabela-crimes-com-os-dados-de-geolocalização)
+[Atualização da tabela crimes com os dados de geolocalização](#atualização-da-tabela-crimes-com-os-dados-de-geolocalização)
 
-# Criação da tabela crimes com os campos Código e Bairros
 
-# Atualização da tabela crimes com os dados de geolocalização
-
-# Atualização da tabela crimes com os dados de geolocalização
-
-# Criação e atualização da tabela crimes
-# Criação e atualização da tabela crimes
-# Criação e atualização da tabela crimes
-# Criação e atualização da tabela crimes
-# Criação e atualização da tabela crimes
-
-# Criação da Lista de geolocalização
+### Criação da Lista de geolocalização
+```sql
 CREATE OR REPLACE TABLE `gb-projeto3dados.Projeto3.bairros_lat_lon` AS
 SELECT * FROM UNNEST([
   STRUCT("01 DP Pessoa com Deficiência" AS bairro, "[-23.5505, -46.6333]" AS lat_lon),
@@ -96,8 +89,10 @@ SELECT * FROM UNNEST([
   STRUCT("Jardim Marilu (Guarulhos)" AS bairro, "[-23.4534, -46.4474]" AS lat_lon),
   STRUCT("Jardim Novo Portugal (Guarulhos)" AS bairro, "[-23.4604, -46.4693]" AS lat_lon)
 ]) AS bairros;
+```
 
-# Criação da tabela crimes com os campos Código e Bairros
+### Criação da tabela crimes com os campos Código e Bairros
+```
 CREATE TABLE `gb-projeto3dados.Projeto3.crimes-sp` AS
 SELECT
     REGEXP_EXTRACT(Delegacia, r'^[^- ]+') AS Codigo_Delegacia,
@@ -167,9 +162,10 @@ SET latitude_longitude = CASE
     ELSE NULL
 END
 WHERE latitude_longitude is null;
+```
 
-
-# Atualização da tabela crimes com os dados de geolocalização
+### Atualização da tabela crimes com os dados de geolocalização
+```
 UPDATE `gb-projeto3dados.Projeto3.crimes-sp`
 SET latitude_longitude = CASE TRIM(Bairros_Regioes)
     -- Campos Elísios
@@ -297,13 +293,17 @@ WHERE Bairros_Regioes IN (
     'Jardim das Imbuias', 'Cohab Itaquera', 'Centro', 'Sul', 'Oeste', 'Norte', 'Leste',
     '8ª Seccional São Mateus', 'Guarulhos (SP)', 'Congonhas', 'CPS (SP)', '91 DP'
 );*/
+```
 
-# Consulta: Total de Crimes por Ano
+### Consulta: Total de Crimes por Ano
+```
 SELECT ANO, ROUND(Sum(crimes),2) as TotalCrimes
 from `gb-projeto3dados.Projeto3.base-crimes-sp`, UNNEST([`Furtos na região`, `Roubo de carga`,`Roubos`,`Roubo de Veiculo`,`Furto de veiculo`, `Latrocinios`,`Homicídio doloso por acidente de trânsito`,`Homicídio Culposo por acidente de Trânsito`,`Homicídio Culposo`,`Tentativa de Homicídio`,`Lesão Corporal seguida de morte`,`Lesão Corporal Dolosa`,`Lesão Corporal Culposa por acidente de trânsito`,`Lesão Corporal Culposa`,Estupro,`Estupro de vulnerável`,`Roubo de veiculos`, `Roubo a Banco `]) as crimes
 GROUP BY Ano
+```
 
-# Consulta: Total de Crimes Violentos por Ano, por Bairro
+### Consulta: Total de Crimes Violentos por Ano, por Bairro
+```
 SELECT 
   ANO,
   Bairros_Regioes, 
@@ -311,8 +311,10 @@ SELECT
 FROM `gb-projeto3dados.Projeto3.crimes-sp`, 
 UNNEST([`Furtos na região`, `Roubo de carga`,`Roubos`,`Roubo de Veiculo`,`Furto de veiculo`, `Latrocinios`,`Homicídio doloso por acidente de trânsito`,`Homicídio Culposo por acidente de Trânsito`,`Homicídio Culposo`,`Tentativa de Homicídio`,`Lesão Corporal seguida de morte`,`Lesão Corporal Dolosa`,`Lesão Corporal Culposa por acidente de trânsito`,`Lesão Corporal Culposa`,Estupro,`Estupro de vulnerável`,`Roubo de veiculos`, `Roubo a Banco `]) as crimes
 GROUP BY Ano, Bairros_Regioes 
+```
 
-# Consulta: crimes mais frequentes
+### Consulta: crimes mais frequentes
+```
 WITH crime_data AS (
   SELECT
     *,
@@ -359,6 +361,7 @@ FROM
   max_crimes
 --GROUP BY Delegacia, max_crime_type, max_crime.crime_value
 ORDER BY max_crime_value DESC;
+```
 
-# [tabela crimes](crimes-sp.csv)
-# [tabela base-crimes-sp-Ajustado](base-crimes-sp-Ajustado.csv)
+### [tabela crimes](crimes-sp.csv)
+### [tabela base-crimes-sp-Ajustado](base-crimes-sp-Ajustado.csv)
