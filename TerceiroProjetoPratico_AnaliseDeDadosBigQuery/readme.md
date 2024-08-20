@@ -34,7 +34,7 @@ O Looker foi utilizado para criar visualizações interativas, incluindo:
 Os resultados foram validados para garantir a precisão das análises. Esta etapa incluiu a revisão das queries e a verificação dos dados de entrada.
 
 
-## 📑 Códigos Desenvolvidos:
+## 📑Códigos Desenvolvidos:
 [Queries do Big Query](#TerceiroProjetoPratico_AnaliseDeDadosBigQuery\Queries.md) 
 
 ## Visualizações:
@@ -43,11 +43,11 @@ As análises foram documentadas no dashboard do Looker
 
 ## Bibliotecas utilizadas:
 
-## 📄 Conclusão
+## 📄Conclusão
 Este projeto forneceu insights valiosos sobre a distribuição e evolução dos crimes no estado de São Paulo. As análises foram documentadas no dashboard do Looker, proporcionando uma visualização clara e interativa dos resultados.
 
 
-## 📄 Tecnologias Utilizadas
+## 📄Tecnologias Utilizadas
 - **BigQuery**: Utilizado para armazenamento e manipulação dos dados.
 - **SQL**: Linguagem utilizada para criação e execução de queries no BigQuery.
 - **Looker**: Ferramenta de BI utilizada para criação do dashboard final.
@@ -67,7 +67,7 @@ Este projeto busca promover o aprendizado e a prática de modelagem de banco de 
 Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta-se à vontade para contribuir! 🚀
 
 
-# Table of contents  
+# Índice de conteúdo  
 1. [Etapas do Projeto](#etapas-do-projeto)  
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)  
 3. [Códigos Desenvolvidos](#códigos-desenvolvidos)  
