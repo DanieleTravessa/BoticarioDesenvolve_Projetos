@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Importar os dados do CSV
-df = pd.read_csv('C:\InstanciasVisualStudio\BoticarioDados\BoticarioDesenvolve_Projetos\SegundoProjetoPratico_AnaliseDeDadosePredicao\\base-alugueis-sp.csv')
+df = pd.read_csv('C:\\InstanciasVisualStudio\\BoticarioDadosProjetos\\BoticarioDesenvolve_Projetos\\SegundoProjetoPratico_AnaliseDeDadosePredicao\\base-alugueis-sp.csv')
 
 # Exibir as primeiras linhas do DataFrame
 print(df.head())
@@ -32,7 +32,7 @@ df['total'] = pd.to_numeric(df['total'], errors='coerce')
 print("Estatísticas Descritivas:")
 print(df.describe())
 
-# Distribuição dos preços de aluguel
+# Distribuição de uma variável
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -42,6 +42,8 @@ plt.xlabel('Preço do Aluguel')
 plt.ylabel('Frequência')
 plt.show()
 
+'''Etapa d: Modelagem de Regressão Linear
+Selecionar as variáveis independentes (features) e a variável dependente (target):'''
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
@@ -52,3 +54,32 @@ y = df['preco_aluguel']  # Variável dependente
 
 # Dividir os dados em conjuntos de treinamento e teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+#Ajustar o modelo de regressão linear:
+# Criar o modelo
+model = LinearRegression()
+# Treinar o modelo
+model.fit(X_train, y_train)
+# Prever no conjunto de teste
+y_pred = model.predict(X_test)
+
+#Avaliar o desempenho do modelo:
+# Avaliar o modelo
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+
+print(f'Mean Squared Error: {mse}')
+print(f'R² Score: {r2}')
+
+#Visualização de Dados
+#Visualizações gráficas:
+# Visualização da relação entre a área e o preço do aluguel
+sns.scatterplot(x='area', y='preco_aluguel', data=df)
+plt.plot(X_test, y_pred, color='red')  # Linha de regressão
+plt.title('Relação entre Área e Preço do Aluguel')
+plt.show()
+
+# Matriz de correlação para analisar relações entre variáveis
+corr_matrix = df.corr()
+sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
+plt.title('Matriz de Correlação')
+plt.show()
