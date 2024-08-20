@@ -295,9 +295,9 @@ WHERE Bairros_Regioes IN (
 
 ### Consulta: Total de Crimes por Ano
 ```
-SELECT ANO, ROUND(Sum(crimes),2) as TotalCrimes
+SELECT ANO, Bairros_Regioes, ROUND(Sum(crimes),2) as TotalCrimes
 from `gb-projeto3dados.Projeto3.base-crimes-sp`, UNNEST([`Furtos na região`, `Roubo de carga`,`Roubos`,`Roubo de Veiculo`,`Furto de veiculo`, `Latrocinios`,`Homicídio doloso por acidente de trânsito`,`Homicídio Culposo por acidente de Trânsito`,`Homicídio Culposo`,`Tentativa de Homicídio`,`Lesão Corporal seguida de morte`,`Lesão Corporal Dolosa`,`Lesão Corporal Culposa por acidente de trânsito`,`Lesão Corporal Culposa`,Estupro,`Estupro de vulnerável`,`Roubo de veiculos`, `Roubo a Banco `]) as crimes
-GROUP BY Ano
+GROUP BY Ano, Bairros_Regioes
 ```
 
 ### Consulta: Total de Crimes Violentos por Ano, por Bairro
