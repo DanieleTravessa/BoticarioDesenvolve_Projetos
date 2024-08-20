@@ -1,9 +1,7 @@
-[Criação da Lista de geolocalização](#criação-da-lista-de-geolocalização)
-[Criação da tabela crimes com os campos Código e Bairros](#criação-da-tabela-crimes-com-os-campos-código-e-bairros)
-[Atualização da tabela crimes com os dados de geolocalização](#atualização-da-tabela-crimes-com-os-dados-de-geolocalização)
-[Atualização da tabela crimes com os dados de geolocalização](#atualização-da-tabela-crimes-com-os-dados-de-geolocalização)
-
-
+[Criação da Lista de geolocalização](#criação-da-lista-de-geolocalização)  
+[Criação da tabela crimes com os campos Código e Bairros](#criação-da-tabela-crimes-com-os-campos-código-e-bairros)  
+[Atualização da tabela crimes com os dados de geolocalização](#atualização-da-tabela-crimes-com-os-dados-de-geolocalização)  
+[Atualização da tabela crimes com os dados de geolocalização](#atualização-da-tabela-crimes-com-os-dados-de-geolocalização)  
 ### Criação da Lista de geolocalização
 ```sql
 CREATE OR REPLACE TABLE `gb-projeto3dados.Projeto3.bairros_lat_lon` AS
@@ -363,5 +361,5 @@ FROM
 ORDER BY max_crime_value DESC;
 ```
 
-### [tabela crimes](crimes-sp.csv)
-### [tabela base-crimes-sp-Ajustado](base-crimes-sp-Ajustado.csv)
+### [Tabela crimes](crimes-sp.csv)
+### [Tabela base-crimes-sp-Ajustado](base-crimes-sp-Ajustado.csv)
