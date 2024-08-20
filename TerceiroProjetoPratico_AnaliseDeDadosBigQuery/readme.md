@@ -6,7 +6,7 @@
 
  
 <p align="center"> 
-    <img src="BoticarioDadosProjetos\logoGBoti.png" alt="Logo Grupo Boticário"> 
+    <img src="logoGBoti.png" alt="Logo Grupo Boticário"> 
 </center>
 
 ## Documentação do Projeto: Análise de Crimes em São Paulo
