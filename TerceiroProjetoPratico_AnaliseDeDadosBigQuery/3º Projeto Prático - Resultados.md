@@ -1,32 +1,20 @@
 # 
 
-# 3º Projeto Prático \- Dados
+# 3º Projeto Prático \- Dados - Apresentação de Resultados
 
-# Análise de Dados com BigQuery e Looker e Storytelling
-Link looker: https://lookerstudio.google.com/s/qQ3NtS5KZ9A
----
+# Storytelling do Dashboard: Análise de Crimes em São Paulo
 
-# **Desafio**
+## Introdução
+Imagine caminhar pelas ruas de São Paulo em 2019 e perceber um padrão sutil: alguns bairros parecem mais seguros, enquanto outros, nem tanto. Mas como podemos traduzir essa percepção em dados concretos? E mais importante, como podemos visualizar essas informações para entender onde os crimes mais ocorrem e como essa dinâmica mudou em 2020? Esse foi o desafio que o dashboard desenvolvido busca responder.
 
-Realize uma análise de dados de crimes ocorridos em São Paulo usando o BigQuery para consultas e o Looker para visualização e geração de relatórios. Ao final, você deverá ter aprendido a criar consultas SQL complexas, criar painéis interativos e apresentar insights de dados.
+## O Cenário Inicial
+Olhando para os dados de 2019, um padrão começa a emergir. Os crimes estão concentrados em certos bairros, mas quais são eles? O dashboard nos guia por essa jornada, destacando os bairros com maior incidência de crimes e mostrando quais tipos de crimes são mais frequentes. A cidade, retratada em números, revela suas áreas mais vulneráveis.
 
-# **Etapas**
+## A Mudança: 2019 vs. 2020
+Com a chegada de 2020, o cenário de crimes em São Paulo muda. Será que a pandemia influenciou na dinâmica dos crimes? O dashboard compara os dois anos lado a lado, permitindo uma análise direta das variações no número total de crimes, e destacando quais tipos de crimes aumentaram ou diminuíram.
 
-**a. Importação de Dados:** Importe conjuntos de dados deste [link](https://drive.google.com/file/d/1sg97M1e2ESLQj7NFmodU4qqd6gLUT8gF/view?usp=sharing) para o BigQuery.
+## Exploração dos Dados: O Poder da Localização
+A visualização geográfica no dashboard permite uma exploração profunda dos bairros mais afetados. Ao selecionar um bairro específico, o usuário pode ver o detalhamento dos crimes ocorridos naquela região, entendendo não apenas a quantidade, mas também o tipo de crime que mais ocorre ali.
 
-**b. Consultas SQL:** Escreva consultas SQL avançadas para extrair informações específicas dos dados.
-
-**c. Criação de Painéis:** Use o Looker para criar painéis interativos que apresentem visualizações de dados.
-
-**d. Narrativa:** Crie uma narrativa coesa que guie o leitor ou espectador através dos insights e conclusões.
-
-**e. Apresentação:** Apresente a história de dados de forma convincente, seja por meio de um relatório, apresentação ou visualização interativa.
-
-# **Orientações gerais**
-
-Se quiser, você pode buscar outras bases de dados na web e analisar as informações que preferir. Caso necessite, você pode pedir ajuda ou dicas da sua pessoa mentora. 
-
-# **Orientações para a entrega**
-
-Caso queira, você poderá entregar o projeto através [deste link](https://forms.gle/ZJopyXdvf4d1uF9h7) até o dia 18/08 às 23:59 horas.
-
+## Conclusão
+O dashboard é mais do que uma simples ferramenta de visualização; é uma narrativa que leva o usuário a entender a evolução dos crimes em São Paulo, bairro por bairro, crime por crime. Ele permite que qualquer pessoa, desde um analista de segurança até um morador preocupado, possa visualizar os dados e tirar suas próprias conclusões sobre a segurança em sua cidade.

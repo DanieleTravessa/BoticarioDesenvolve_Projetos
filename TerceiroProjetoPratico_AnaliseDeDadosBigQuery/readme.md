@@ -1,7 +1,7 @@
 <a id="documentacao"></a>
 <h1 align="center">
-    2°Projeto Prático - Dados<br>
-    Análise de Dados e Predição com Python e Pandas 
+    3°Projeto Prático - Dados<br>
+    AAnálise de Dados com BigQuery e Looker e Storytelling 
 </h1>
 
  
@@ -9,42 +9,49 @@
     <img src="PrimeiroProjetoPratico_ModelagemBD/logoGBoti.png" alt="Logo Grupo Boticário"> 
 </center>
 
-🤖 Este projeto no modelo de desafio visa realizar uma análise completa usando Python e a biblioteca Pandas numa base de dados de preços de aluguéis em São Paulo. Utilizar a regressão linear para modelar uma relação entre variáveis do conjunto de dados. 
-Através dessa proposta aprender a importar dados, limpar, explorar, visualizar e tirar conclusões a partir dos dados, além de ajustar um modelo de regressão linear e avaliar seu desempenho.
+# Documentação do Projeto: Análise de Crimes em São Paulo
+
+🤖 ## Introdução
+Este projeto teve como objetivo analisar dados de crimes no estado de São Paulo, utilizando BigQuery para manipulação dos dados e Looker para visualização e análise. O foco principal foi identificar padrões de crimes por bairros, determinar os crimes mais frequentes, e comparar a incidência de crimes entre os anos de 2019 e 2020.
 
 ## 🚀Etapas do Projeto:
-### 🎲Obter base de dados:
-Download da base de dados neste link;
-### 🎲Importação e Limpeza:
-Importar os dados para um DataFrame do Pandas, limpe os dados e trate valores ausentes;
-### 🎲Análise Descritiva:
-Realizar uma análise descritiva dos dados, calculando estatísticas básicas e identificando tendências;
-### 🎲Modelagem de Regressão Linear:
-Ajustar um modelo de regressão linear aos dados para tentar prever o preço do aluguel em uma determinada área;
-### 🎲Visualização de Dados:
- Criar visualizações gráficas usando bibliotecas como Matplotlib ou Seaborn para representar os dados;
+### 🎲 Importação e Limpeza dos Dados
+Os dados foram importados para o BigQuery e passaram por um processo de limpeza, incluindo a remoção de duplicatas e correção de dados inconsistentes.
+### 🎲### 2. Estruturação das Tabelas
+Foram criadas tabelas no BigQuery para armazenar os dados de crimes, organizando-os por bairros e tipos de crime. Uma tabela adicional foi criada para armazenar as coordenadas de latitude e longitude dos bairros, necessária para a visualização geográfica.
+### 🎲### 3. Criação das Queries SQL
+Diversas queries SQL foram desenvolvidas para extrair e manipular os dados. As principais queries incluíram:
+- Agrupamento dos crimes por bairros.
+- Cálculo do total de crimes por tipo e por ano.
+- Comparação entre os anos de 2019 e 2020.
+### 🎲### 4. Desenvolvimento do Dashboard no Looker
+O Looker foi utilizado para criar visualizações interativas, incluindo:
+- Total de crimes por bairro.
+- Crimes mais frequentes.
+- Bairros com maior frequência de crimes.
+- Comparação de crimes entre 2019 e 2020.
+### 🎲### 5. Validação dos Resultados
+Os resultados foram validados para garantir a precisão das análises. Esta etapa incluiu a revisão das queries e a verificação dos dados de entrada.
+
 
 ## 📑 Códigos Desenvolvidos:
-
+3. [Queries do Big Query](#TerceiroProjetoPratico_AnaliseDeDadosBigQuery\Queries.md) 
 
 ## Visualizações:
-
+As análises foram documentadas no dashboard do Looker
+[Link looker](#https://lookerstudio.google.com/s/qQ3NtS5KZ9A)
 
 ## Bibliotecas utilizadas:
 
-## 📄Conclusões
-Conclusões e relatório:
-Baseado na análise descritiva, na modelagem de regressão linear e nas visualizações gráficas, podemos realizar algumas inferências como:
-
-Tendências: Observações sobre como a área influencia o preço do aluguel.
-Desempenho do modelo: Eficiência do modelo em prever os preços de aluguel, baseado nas métricas de avaliação (MSE e R²).
-Sugestões: Possíveis melhorias para o modelo, como incluir mais variáveis independentes ou realizar uma análise mais detalhada dos dados.
+## 📄## Conclusão
+Este projeto forneceu insights valiosos sobre a distribuição e evolução dos crimes no estado de São Paulo. As análises foram documentadas no dashboard do Looker, proporcionando uma visualização clara e interativa dos resultados.
 
 
-## 📄Ferramentas Utilizadas:
-✴ Diagrama ER: Draw.io.
-✴ SGBD: PostgreSQL.
-✴ Documentação: Markdown.
+## 📄## Tecnologias Utilizadas
+- **BigQuery**: Utilizado para armazenamento e manipulação dos dados.
+- **SQL**: Linguagem utilizada para criação e execução de queries no BigQuery.
+- **Looker**: Ferramenta de BI utilizada para criação do dashboard final.
+- **Python**: Para tratamento do documento CSV que foi importado no BigQuery.
 
 ## 📄Como Contribuir:
 Fique à vontade para sugerir melhorias no modelo de banco de dados ou na documentação.
@@ -65,6 +72,3 @@ Se você está interessado em contribuir ou aprender mais sobre o assunto, sinta
 2. [Entidades Utilizadas](#entidades-utilizadas)  
     1. [Sub paragraph](#subparagraph1)  
 3. [Ferramentas Utilizadas](#ferramentas-utilizadas) 
-
-
-
