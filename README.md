@@ -1,7 +1,6 @@
 <a id="documentacao"></a>
 <h1 align="center">
-    1°Projeto Prático - Dados<br>
-    Modelagem de Banco de Dados
+    Projetos Práticos - Dados<br>
 </h1>
 
  
