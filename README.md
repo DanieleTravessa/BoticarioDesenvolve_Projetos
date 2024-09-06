@@ -17,7 +17,7 @@
 Identificação das principais entidades, relacionamentos e atributos necessários para a aplicação, considerando vendas, sistema de pontuação e gestão de estoque.
 ### 🎲Segundo Projeto Prático: Análise de Dados e Predição com Python e Pandas
 Criação de um diagrama Entidade-Relacionamento que represente a estrutura lógica do banco de dados, mostrando as entidades e seus relacionamentos.
-### 🎲Terceiro Projeto Prático:
+### 🎲Terceiro Projeto Prático: Análise de Dados com BigQuery e Looker e Storytelling
 Aplicação de técnicas de normalização para organizar eficientemente os dados, garantindo a integridade e reduzindo a redundância.
 
 ## 📄Ferramentas Utilizadas:
