@@ -12,7 +12,7 @@
 🤖 Este repositório visa agrupar os desafios de código do programa Desenvolve do Grupo Boticário.
 
 ## 🚀Projetos:
-### 🎲Primeiro Projeto Prático:
+### 🎲Primeiro Projeto Prático: Modelagem de Banco de Dados
 Identificação das principais entidades, relacionamentos e atributos necessários para a aplicação, considerando vendas, sistema de pontuação e gestão de estoque.
 ### 🎲Segundo Projeto Prático:
 Criação de um diagrama Entidade-Relacionamento que represente a estrutura lógica do banco de dados, mostrando as entidades e seus relacionamentos.
