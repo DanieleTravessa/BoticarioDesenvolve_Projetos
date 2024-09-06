@@ -6,7 +6,7 @@
 
  
 <p align="center"> 
-    <img src="logoGBoti.png" alt="Logo Grupo Boticário"> 
+    <img src="PrimeiroProjetoPratico_ModelagemBD/logoGBoti.png" alt="Logo Grupo Boticário"> 
 </center>
 
 🤖 Este repositório visa agrupar os desafios de código do programa Desenvolve do Grupo Boticário.
