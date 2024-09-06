@@ -39,7 +39,7 @@ Os resultados foram validados para garantir a precisão das análises. Esta etap
 
 ## Visualizações:
 As análises foram documentadas no dashboard do Looker
-[Link looker](#https://lookerstudio.google.com/s/qQ3NtS5KZ9A)
+[Link looker](https://lookerstudio.google.com/s/qQ3NtS5KZ9A)
 
 ## Bibliotecas utilizadas:
 
