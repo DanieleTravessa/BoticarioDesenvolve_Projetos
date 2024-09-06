@@ -12,12 +12,12 @@
 🤖 Este repositório visa agrupar os desafios de código do programa Desenvolve do Grupo Boticário.
 
 ## 🚀Projetos:
-### 🎲Primeiro Projeto Prático: Modelagem de Banco de Dados
-Identificação das principais entidades, relacionamentos e atributos necessários para a aplicação, considerando vendas, sistema de pontuação e gestão de estoque.
-### 🎲Segundo Projeto Prático: Análise de Dados e Predição com Python e Pandas
-Criação de um diagrama Entidade-Relacionamento que represente a estrutura lógica do banco de dados, mostrando as entidades e seus relacionamentos.
-### 🎲Terceiro Projeto Prático: Análise de Dados com BigQuery e Looker e Storytelling
-Aplicação de técnicas de normalização para organizar eficientemente os dados, garantindo a integridade e reduzindo a redundância.
+### 🎲Primeiro Projeto Prático: Modelagem de Banco de Dados  
+Este projeto visa criar um modelo de banco de dados relacional que representa aspectos importantes do negócio do Boticário, com foco nas áreas de vendas, sistema de pontuação e gestão de produtos em estoque. O objetivo é identificar entidades, relacionamentos e atributos relevantes, além de desenvolver a modelagem lógica e física do banco de dados.  
+### 🎲Segundo Projeto Prático: Análise de Dados e Predição com Python e Pandas  
+ Este projeto no modelo de desafio visa realizar uma análise completa usando Python e a biblioteca Pandas numa base de dados de preços de aluguéis em São Paulo. Utilizar a regressão linear para modelar uma relação entre variáveis do conjunto de dados. Através dessa proposta aprender a importar dados, limpar, explorar, visualizar e tirar conclusões a partir dos dados, além de ajustar um modelo de regressão linear e avaliar seu desempenho.  
+### 🎲Terceiro Projeto Prático: Análise de Dados com BigQuery e Looker e Storytelling  
+Este projeto teve como objetivo analisar dados de crimes no estado de São Paulo, utilizando BigQuery para manipulação dos dados e Looker para visualização e análise. O foco principal foi identificar padrões de crimes por bairros, determinar os crimes mais frequentes, e comparar a incidência de crimes entre os anos de 2019 e 2020.  
 
 ## 📄Ferramentas Utilizadas:
 ✴ Documentação: Markdown.  
