@@ -3,7 +3,6 @@
     3°Projeto Prático - Dados<br>
     Análise de Dados com BigQuery e Looker e Storytelling 
 </h1>
-
  
 <p align="center"> 
     <img src="logoGBoti.png" alt="Logo Grupo Boticário"> 
@@ -11,7 +10,7 @@
 
 ## Documentação do Projeto: Análise de Crimes em São Paulo
 
-🤖 ## Introdução
+## 🤖 Introdução
 Este projeto teve como objetivo analisar dados de crimes no estado de São Paulo, utilizando BigQuery para manipulação dos dados e Looker para visualização e análise. O foco principal foi identificar padrões de crimes por bairros, determinar os crimes mais frequentes, e comparar a incidência de crimes entre os anos de 2019 e 2020.
 
 ## 🚀Etapas do Projeto:
@@ -33,23 +32,18 @@ O Looker foi utilizado para criar visualizações interativas, incluindo:
 ### 🎲 Validação dos Resultados
 Os resultados foram validados para garantir a precisão das análises. Esta etapa incluiu a revisão das queries e a verificação dos dados de entrada.
 
-
 ## 📑Códigos Desenvolvidos:
 [Queries do Big Query](Queries.md) 
 
 ## Visualizações:
 As análises foram documentadas nesse dashboard do [Looker](https://lookerstudio.google.com/s/qQ3NtS5KZ9A).  
 
-
 <img src="https://github.com/user-attachments/assets/ba0e8528-3050-4970-9dbb-d9cb7fd30662" width="500px"/> <img src="https://github.com/user-attachments/assets/a9145f61-a62d-49fe-8e43-b4047e88e5ed" width="500px"/>
 
-
-
-## Bibliotecas utilizadas:
-
 ## 📄Conclusão
-Este projeto forneceu insights valiosos sobre a distribuição e evolução dos crimes no estado de São Paulo. As análises foram documentadas no dashboard do Looker, proporcionando uma visualização clara e interativa dos resultados.
-
+Este projeto forneceu insights valiosos sobre a distribuição e evolução dos crimes no estado de São Paulo. 
+As análises foram documentadas no dashboard do Looker, proporcionando uma visualização clara e interativa dos resultados.  
+A narrativa dos resultados pode ser encontrada  [aqui ❗](https://github.com/DanieleTravessa/BoticarioDesenvolve_Projetos/blob/main/TerceiroProjetoPratico_AnaliseDeDadosBigQuery/3%C2%BA%20Projeto%20Pr%C3%A1tico%20-%20Resultados.md) 
 
 ## 📄Tecnologias Utilizadas
 - **BigQuery**: Utilizado para armazenamento e manipulação dos dados.
