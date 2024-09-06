@@ -38,8 +38,7 @@ Os resultados foram validados para garantir a precisão das análises. Esta etap
 [Queries do Big Query](Queries.md) 
 
 ## Visualizações:
-As análises foram documentadas no dashboard do Looker
-[Link looker](https://lookerstudio.google.com/s/qQ3NtS5KZ9A)
+As análises foram documentadas nesse dashboard do [Looker](https://lookerstudio.google.com/s/qQ3NtS5KZ9A).
 
 ## Bibliotecas utilizadas:
 
